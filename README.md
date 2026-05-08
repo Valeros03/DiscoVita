@@ -120,14 +120,15 @@ ur0:tai/VitaCordEngine.suprx
 ### 2. Networking Reference
 To ensure the bridge works, your devices must be configured with static IPs as follows:
 
-Device,Role,IP Address (Example)
-PC / Server,Bridge Host,192.168.1.24
-PS Vita,Client,192.168.1.7
+| Device | Role | IP Address |
+| :--- | :--- | :--- |
+| PC / Server | Bridge Host | 192.168.1.24 |
+| PS Vita | Client | 192.168.1.7 |
 
 Required Ports:
-5555 (UDP): Audio Upstream (PS Vita → Server)
-5556 (UDP): Audio Downstream (Server → PS Vita)
-7777 (TCP): API Control (PS Vita → Server)
+- 5555 (UDP): Audio Upstream (PS Vita → Server)
+- 5556 (UDP): Audio Downstream (Server → PS Vita)
+- 7777 (TCP): API Control (PS Vita → Server)
 
 ### 3. Discord Bot Setup
 You need a Discord Bot to act as your "proxy" in the voice channel.
