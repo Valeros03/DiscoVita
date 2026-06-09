@@ -195,10 +195,5 @@ Because the kernel plugin is injected into the Party App (System Title ID: NPXS1
 
 - Auto-Cleanup: If you wish to stop the bridge and disconnect the bot, simply close the Party app. The plugin's module_stop will trigger the /api/leave command automatically.
 
-## 👨‍💻 About the Author
-This project was built as a deep dive into embedded systems, reverse engineering, and real-time networking. If you are a recruiter or an engineer interested in the low-level C code running on the Vita kernel, feel free to reach out for a technical discussion!
-
-
-
 
     
