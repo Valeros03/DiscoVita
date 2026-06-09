@@ -1,0 +1,24 @@
+version: 2
+firmware: 3.60
+modules:
+  SceVoice:
+    nid: 0xF5F3E7CA
+    libraries:
+      SceVoice:
+        kernel: false
+        nid: 0xCE56E214
+        functions:
+          vc_voice_check_topology: 0x874054CE
+          vc_voice_connect_ports: 0x698BDAAE
+          vc_voice_create_port: 0xFA4E57B1
+          vc_voice_delete_port: 0xAE46564D
+          vc_voice_disconnect_ports: 0x5F0260F4
+          vc_voice_get_port_info: 0x5933CCFB
+          vc_voice_init: 0x805CC20F
+          vc_voice_read_port: 0x09E4D18C
+          vc_voice_resume_port: 0x2DE35411
+          vc_voice_set_mute: 0x0B9E4AE2
+          vc_voice_set_volume: 0xD93769E6
+          vc_voice_start: 0xB2ED725B
+          vc_voice_stop: 0xC3868DF6
+          vc_voice_write_port: 0x0A22EC0E
